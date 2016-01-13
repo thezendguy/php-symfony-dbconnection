@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Database connection successful</h1>
+    <p>New product created</p>
+    <div id="wrapper">
+        <ul>
+            <li>Product id: {{ product.id }}
+            <li>Product name: {{ product.name }}
+            <li>Product price: {{ product.price }}
+            <li>Product description: {{ product.description }}
+        </ul>
+    </div>
+{% endblock %}
