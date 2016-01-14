@@ -22,6 +22,9 @@ $ cd php-symfony-dbconnection
 $ git clone https://github.com/benjaminvickers/php-symfony-dbconnection.git .  
 $ composer install
 ```
+Enter the database connection details when prompted by composer. Otherwise you
+can edit the details in the app/config/parameters.yml file. Remember the database
+name should be set to <strong><code>psd</code></strong>.
 
 To setup
 -
